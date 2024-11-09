@@ -25,7 +25,7 @@ public class Anim extends JFrame {
         glcanvas = new GLCanvas();
         glcanvas.addGLEventListener(listener);
         glcanvas.addKeyListener(listener);
-        animator = new FPSAnimator(glcanvas, 120);
+        animator = new FPSAnimator(glcanvas, 15);
         JButton startButton = new JButton("Start Game");
         startButton.addActionListener(new ActionListener() {
             @Override
